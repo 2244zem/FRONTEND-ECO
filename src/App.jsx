@@ -84,7 +84,7 @@ const ProfilPengguna = lazy(() => import('./features/profilPengguna/index'));
 const Auth = lazy(() => import('./features/auth'));
 const MarketplaceKarya = lazy(() => import('./features/marketplaceKarya'));
 const BisnisLingkungan = lazy(() => import('./features/bisnisLingkungan'));
-const AIAssistant = lazy(() => import('./features/aiAssistant'));
+const AIAssistant = lazy(() => import("./features/aiAssistant"));
 const PusatDaurUlang = lazy(() => import('./features/pusatDaurUlang'));
 const CarbonCalculator = lazy(() => import('./pages/CarbonCalculator'));
 const Penjemputan = lazy(() => import('./pages/Penjemputan'));
